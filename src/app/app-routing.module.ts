@@ -8,7 +8,7 @@ import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 
 const routes: Routes = [
 
-  {path:'', redirectTo: 'background', pathMatch: 'full'},
+  {path:'', redirectTo: 'menu', pathMatch: 'full'},
   {path: 'menu', component: MenuComponent},
   {path: 'contato', component:ContatoComponent},
   {path: 'sobre-mim', component: SobreMimComponent},
